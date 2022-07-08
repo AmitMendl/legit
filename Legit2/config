@@ -1,13 +1,4 @@
 [core]
 	repositoryformatversion = 0
-	filemode = false
-	bare = false
-	logallrefupdates = true
-	ignorecase = true
-	sshCommand = 'cp /flag .'
-[remote "origin"]
-	url = git@github.com:AmitMendl/Legit2.git
-	fetch = +refs/heads/*:refs/remotes/origin/*
-[branch "master"]
-	remote = origin
-	merge = refs/heads/master
+	filemode = true
+	bare = true
